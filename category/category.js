@@ -31,6 +31,7 @@ function renderGrid(data) {
           <p class="product-price">$${product.price}</p>
           ${getStarRating(product.rating)}
         </a>
+         
       </div>`;
   });
 
@@ -67,3 +68,6 @@ function getStarRating(rating) {
 
 // Fetch initial products
 fetchCategoryProducts(currentPage);
+
+
+

@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KingRice</title>
 
-    <!-- Correct relative paths for stylesheets -->
     <link rel="stylesheet" href="../nav/nav.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../category/category.css" />
+    <link rel="stylesheet" href="../Cart/cart.css" />
 
     <link
       rel="stylesheet"
@@ -20,12 +20,10 @@
     />
   </head>
   <body>
-    <!-- Custom Header using nav.js -->
     <special-header></special-header>
 
     <!-- Main Section -->
     <section id="main">
-      <!-- Rice Recipe Section -->
       <div class="container-home">
         <div class="row">
           <h1>RICE <br /><span>RECIPE</span></h1>
@@ -46,28 +44,29 @@
       </div>
 
       <!-- About Us Section -->
-      <div class="container-about">
-        <div class="img1">
-          <img src="../images/img-1.png" alt="Image 1" />
+      <section id="about">
+        <div class="container-about">
+          <div class="img1">
+            <img src="../images/img-1.png" alt="Image 1" />
+          </div>
+          <div class="about">
+            <h1>About Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              consequuntur sint ipsam nemo unde nulla incidunt, quas error eius
+              consequatur architecto quisquam nisi sunt eum dolore tenetur illum
+              dicta officia.
+            </p>
+            <button>
+              Read More
+              <i class="fas fa-arrow-alt-circle-right"></i>
+            </button>
+          </div>
+          <div class="aboutimage">
+            <img src="../images/about-img.png" alt="About Us" />
+          </div>
         </div>
-        <div class="about">
-          <h1>About Us</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-            consequuntur sint ipsam nemo unde nulla incidunt, quas error eius
-            consequatur architecto quisquam nisi sunt eum dolore tenetur illum
-            dicta officia.
-          </p>
-          <button>
-            Read More
-            <i class="fas fa-arrow-alt-circle-right"></i>
-          </button>
-        </div>
-        <div class="aboutimage">
-          <img src="../images/about-img.png" alt="About Us" />
-        </div>
-      </div>
-
+      </section>
       <!-- Menu Section Start -->
       <div class="menu_section">
         <div class="container">
@@ -172,7 +171,7 @@
           repudiandae esse. Cum distinctio tempore veniam praesentium quo modi
           delectus aut dolor dignissimos iste qui cumque consectetur, odit
           tenetur quisquam ducimus animi ab ullam earum ut, iusto porro velit!
-          Quibusdam, incidunt recusandae.
+          Quibusdaam, incidunt recusandae.
         </p>
         <div class="client_img">
           <img src="../images/client-img.png" alt="Client Image" />
@@ -225,5 +224,6 @@
     <script src="../nav/nav.js"></script>
     <script src="index.js"></script>
     <script src="../category/category.js"></script>
+    <script src="../Cart/cart.js"></script>
   </body>
 </html>
